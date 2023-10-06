@@ -4,8 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsLinkedin } from "react-icons/bs";
-import { FaGithubSquare } from "react-icons/fa";
+import {BsArrowRight} from "react-icons/bs"
 
 export default function Intro() {
   return (
@@ -72,40 +71,12 @@ export default function Intro() {
         </span>
       </motion.h6>
 
-      <motion.div
-        className="flex flex-col font-custom sm:flex-row items-center justify-center gap-5 px-4 text-lg font-medium"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 }}
-      >
-        <Link
-          href="#contact"
-          className="bg-blue-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-110 hover:bg-gray-700 active:scale-95 transition cursor-pointer border-black/10s"
-        >
-          Contact me here 🥳
+      <div>
+        <Link href="#contact">
+          Contact me here
+          <BsArrowRight />
         </Link>
-        <a
-          href="/CV.pdf"
-          download
-          className="group bg-blue-300 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer"
-        >
-          Download CV 🤠
-        </a>
-        <a
-          href="https://www.linkedin.com/in/yingxin-zhang-ba1028212/"
-          target="_blank"
-          className="bg-purple-50 px-7 py-3 flex items-center gap-2 rounded-full text-[2rem] focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
-        >
-          <BsLinkedin />
-        </a>
-        <a
-          href="https://github.com/Tracy-maker"
-          target="_blank"
-          className="bg-purple-50 px-7 py-3 flex items-center gap-2 rounded-full text-[2rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10"
-        >
-          <FaGithubSquare />
-        </a>
-      </motion.div>
+      </div>
     </section>
   );
 }

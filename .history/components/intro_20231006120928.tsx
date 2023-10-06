@@ -91,18 +91,11 @@ export default function Intro() {
         >
           Download CV 🤠
         </a>
-        <a
-          href="https://www.linkedin.com/in/yingxin-zhang-ba1028212/"
-          target="_blank"
-          className="bg-purple-50 px-7 py-3 flex items-center gap-2 rounded-full text-[2rem] focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
-        >
+        <a href="https://www.linkedin.com/in/yingxin-zhang-ba1028212/"
+              target="_blank" className="bg-purple-50 px-7 py-3 flex items-center gap-2 rounded-full text-[2rem] focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10">
           <BsLinkedin />
         </a>
-        <a
-          href="https://github.com/Tracy-maker"
-          target="_blank"
-          className="bg-purple-50 px-7 py-3 flex items-center gap-2 rounded-full text-[2rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10"
-        >
+        <a href="https://github.com/Tracy-maker" target="_blank" className="bg-purple-50 px-7 py-3 flex items-center gap-2 rounded-full text-[2rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10">
           <FaGithubSquare />
         </a>
       </motion.div>

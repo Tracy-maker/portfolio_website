@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
 import Link from "next/link";
-
+import { BsArrowRight } from "react-icon/bs";
 
 export default function Header() {
   return (
