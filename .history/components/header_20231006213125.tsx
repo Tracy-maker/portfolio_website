@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
 import Link from "next/link";
+import clsx from "clsx";;
 
 export default function Header() {
   return (
