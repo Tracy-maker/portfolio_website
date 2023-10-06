@@ -30,11 +30,11 @@ export default function About() {
         JavaScript, React.js, Tailwind, CSS, Next.js, TypeScript, RESTful APIs,
         and Firebase.
         <span className="font-medium">
-          What sets me apart is my enthusiasm for collaboration and learning. I
-          thrive in team settings, and I'm always eager to absorb knowledge from
-          experienced developers. I may be new to the field, but I'm a quick
-          learner and a diligent worker, ready to contribute to projects with a
-          fresh perspective. 🧙‍♂️🚀
+        What sets me apart is my enthusiasm for collaboration and learning.
+            I thrive in team settings, and I&apos;m always eager to absorb
+            knowledge from experienced developers. I may be new to the field,
+            but I&apos;m a quick learner and a diligent worker, ready to
+            contribute to projects with a fresh perspective. 🧙‍♂️🚀
         </span>
         This transition marks a pivotal moment, and I am excited about the
         opportunities ahead in the field of software development.
