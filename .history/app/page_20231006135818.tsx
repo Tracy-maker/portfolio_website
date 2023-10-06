@@ -1,3 +1,4 @@
+
 import SectionDivider from "@/components/SectionDivider";
 import About from "@/components/about";
 import Intro from "@/components/intro";
