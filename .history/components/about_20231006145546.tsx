@@ -16,7 +16,7 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         Motivated by a profound love for{" "}
-        <span className="font-medium">coding,</span> I left a six-year marketing
+        <span className="font-medium">coding,</span>I left a six-year marketing
         management role in China to pursue an in-depth study of computer science
         in Australia.{" "}
         <span className="font-medium">
@@ -30,7 +30,6 @@ export default function About() {
         JavaScript, React.js, Tailwind, CSS, Next.js, TypeScript, RESTful APIs,
         and Firebase.
         <span className="font-medium">
-          {" "}
           What sets me apart is my enthusiasm for collaboration and learning. I
           thrive in team settings, and I'm always eager to absorb knowledge from
           experienced developers. I may be new to the field, but I'm a quick
