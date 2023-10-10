@@ -17,7 +17,7 @@ export default function Experience() {
       <SectionHeading>My Experience</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
-          <React.Fragment key={index}>
+          <div key={index}>
             <VerticalTimelineElement
               contentStyle={{
                 background: "bg-gray-200 dark:bg-opacity-5 bg-white",
@@ -43,7 +43,7 @@ export default function Experience() {
                 {item.description}
               </p>
             </VerticalTimelineElement>
-          </React.Fragment>
+          </div>
         ))}
       </VerticalTimeline>
     </section>

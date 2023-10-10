@@ -16,7 +16,8 @@ export default function Experience() {
     <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My Experience</SectionHeading>
       <VerticalTimeline lineColor="">
-        {experiencesData.map((item, index) => (
+        {experiencesData.map((item, index) => {
+          return
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
@@ -43,8 +44,8 @@ export default function Experience() {
                 {item.description}
               </p>
             </VerticalTimelineElement>
-          </React.Fragment>
-        ))}
+          </React.Fragment>;
+        })}
       </VerticalTimeline>
     </section>
   );

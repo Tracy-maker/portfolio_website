@@ -19,7 +19,7 @@ export default function ThemeButton() {
   return (
     <button
       onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
-      className=" p-1 rounded-lg "
+      className=" p-2 rounded-lg "
     >
       {resolvedTheme === "dark" ? (
         <BsSun className="w-6 h-6" />

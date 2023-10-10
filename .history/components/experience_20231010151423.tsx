@@ -33,7 +33,7 @@ export default function Experience() {
               date={item.date}
               icon={item.icon}
               iconStyle={{
-                background: "bg-white dark:bg-opacity-15 bg-white",
+                background: "bg-green-200 dark:bg-opacity-15 bg-white",
                 fontSize: "text-lg",
               }}
             >
