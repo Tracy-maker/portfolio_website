@@ -9,6 +9,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 
+// ... Import statements
 
 export default function Experience() {
   return (

@@ -9,18 +9,17 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 
-
 export default function Experience() {
   return (
     <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
-      <SectionHeading>My experience</SectionHeading>
+      <SectionHeading>My Experience</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
-          <React.Fragment key={index}>
+      
             <VerticalTimelineElement
+            key={index}
               contentStyle={{
                 background: "bg-gray-200 dark:bg-opacity-5 bg-white",
-
                 boxShadow: "none",
                 border: "border-2 border-opacity-50",
                 textAlign: "left",
@@ -34,7 +33,6 @@ export default function Experience() {
               icon={item.icon}
               iconStyle={{
                 background: "bg-white dark:bg-opacity-15 bg-white",
-
                 fontSize: "text-lg",
               }}
             >
@@ -44,7 +42,7 @@ export default function Experience() {
                 {item.description}
               </p>
             </VerticalTimelineElement>
-          </React.Fragment>
+        
         ))}
       </VerticalTimeline>
     </section>

@@ -10,6 +10,8 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 
 
+// ... Import statements
+
 export default function Experience() {
   return (
     <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
@@ -27,8 +29,7 @@ export default function Experience() {
                 padding: "p-5",
               }}
               contentArrowStyle={{
-                borderRight:
-                  "border-r-2 border-gray-500 dark:border-white opacity-50",
+                borderRight: "border-r-2 border-gray-500 dark:border-white opacity-50",
               }}
               date={item.date}
               icon={item.icon}
