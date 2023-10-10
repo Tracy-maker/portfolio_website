@@ -22,6 +22,7 @@ export default function RootLayout({
         className={`${inter.className} bg-gray-50 text-gray-950 relative h-[5000px] pt-28 sm:pt-36 dark:bg-[#090908] dark:text-white  selection:bg-gray-500 dark:selection:bg-gray-800`}
       >
         <Provider>
+          
           <Header />
           {children}
         </Provider>
