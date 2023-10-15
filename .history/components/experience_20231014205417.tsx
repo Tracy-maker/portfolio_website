@@ -15,15 +15,15 @@ export default function Experience() {
     <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My Experience</SectionHeading>
       <VerticalTimeline>
-        {experiencesData.map((experience, index) => {
-          return (
-            <VerticalTimelineElement key={index}>
+        {experiencesData.map((experience, index) => {return(
+          <React.Fragment key={index}>
+            <VerticalTimelineElement>
               <h3>{experience.title}</h3>
               <p>{experience.location}</p>
               <p>{experience.description}</p>
             </VerticalTimelineElement>
-          );
-        })}
+          </React.Fragment>
+        )})}
       </VerticalTimeline>
     </section>
   );

@@ -22,7 +22,7 @@ export default function Experience() {
               <p>{experience.location}</p>
               <p>{experience.description}</p>
             </VerticalTimelineElement>
-          );
+          );d
         })}
       </VerticalTimeline>
     </section>

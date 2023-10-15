@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 import SectionHeading from "./sectionHeading";
 import {
@@ -14,16 +15,18 @@ export default function Experience() {
   return (
     <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My Experience</SectionHeading>
-      <VerticalTimeline>
-        {experiencesData.map((experience, index) => {
-          return (
-            <VerticalTimelineElement key={index}>
-              <h3>{experience.title}</h3>
-              <p>{experience.location}</p>
-              <p>{experience.description}</p>
+      <VerticalTimeline >
+        {experiencesData.map((item, index) => (
+          <React.Fragment key={index}>
+            <VerticalTimelineElement>
+              <h3 className="font-semibold capitalize">{item.title}</h3>
+              <p className="font-normal mt-0">{item.location}</p>
+              <p className="mt-1 font-normal text-gray-700 dark:text-white/75">
+                {item.description}
+              </p>
             </VerticalTimelineElement>
-          );
-        })}
+          </React.Fragment>
+        ))}
       </VerticalTimeline>
     </section>
   );

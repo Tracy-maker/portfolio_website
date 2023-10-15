@@ -17,11 +17,12 @@ export default function Experience() {
       <VerticalTimeline>
         {experiencesData.map((experience, index) => {
           return (
-            <VerticalTimelineElement key={index}>
-              <h3>{experience.title}</h3>
-              <p>{experience.location}</p>
-              <p>{experience.description}</p>
-            </VerticalTimelineElement>
+         
+              <VerticalTimelineElement key={index}>
+                <h3>{experience.title}</h3>
+                <p>{experience.location}</p>
+                <p>{experience.description}</p>
+              </VerticalTimelineElement>
           );
         })}
       </VerticalTimeline>
