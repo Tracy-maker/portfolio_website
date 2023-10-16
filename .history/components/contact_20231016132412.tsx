@@ -7,7 +7,7 @@ import { sendEmail } from "@/actions/sendEmail";
 import { experimental_useFormStatus } from "react-dom";
 
 export default function Contact() {
-  const { pending } = experimental_useFormStatus();
+ const {pending}= experimental_useFormStatus()
 
   return (
     <motion.section

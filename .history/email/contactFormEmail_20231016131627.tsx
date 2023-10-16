@@ -28,8 +28,8 @@ export default function ContactFormEmail({
       <Tailwind>
         <Body className="bg-gray-100 text-black">
           <Container>
-            <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
-              <Heading className="leading-tight">
+            <Section>
+              <Heading>
                 You received the following message from the contact form
               </Heading>
               <Text>{message}</Text>
