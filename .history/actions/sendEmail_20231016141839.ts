@@ -1,8 +1,9 @@
 "use server";
-import React from "react";
+
 import { Resend } from "resend";
 import { validateString, getErrorMessage } from "@/lib/utils";
 import ContactFormEmail from "@/email/contactFormEmail";
+import React from "react";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -41,8 +42,4 @@ export const sendEmail = async (formData: FormData) => {
       error: getErrorMessage(error),
     };
   }
-
-  return {
-    data,
-  };
 };

@@ -35,7 +35,7 @@ export default function Contact() {
             toast.error(error);
             return;
           }
-          toast.success("Email sent successfully!");
+          alert("Email sent successfully!");
         }}
       >
         <input

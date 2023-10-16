@@ -1,13 +1,15 @@
 "use client";
 
-import React from "react";
+import React, { experimental_useEffectEvent } from "react";
 import SectionHeading from "./sectionHeading";
 import { motion } from "framer-motion";
 import { sendEmail } from "@/actions/sendEmail";
+import { experimental_useFormStatus } from "react-dom";
 import SubmitBtn from "./submit-btn";
-import toast from "react-hot-toast";
 
 export default function Contact() {
+  const { pending } = experimental_useFormStatus();
+
   return (
     <motion.section
       id="contact"
@@ -30,12 +32,7 @@ export default function Contact() {
       <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
-          const { data, error } = await sendEmail(formData);
-          if (error) {
-            toast.error(error);
-            return;
-          }
-          toast.success("Email sent successfully!");
+          await sendEmail(formData);
         }}
       >
         <input
@@ -53,7 +50,7 @@ export default function Contact() {
           required
           maxLength={5000}
         />
-        <SubmitBtn />
+        <SubmitBtn/>
       </form>
     </motion.section>
   );

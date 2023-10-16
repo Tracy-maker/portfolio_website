@@ -4,7 +4,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Provider } from "@/components/provider";
 import { Toaster } from "react-hot-toast";
-import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
