@@ -5,6 +5,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsLinkedin } from "react-icons/bs";
+import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
   return (
@@ -53,27 +54,24 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi! I'm Lesley.</span> I'm an{" "}
+        <span className="font-bold">Hello, I'm Yingxin.</span> I'm a{" "}
         <span className="font-bold">
-          🌟 accomplished Australian CPA Accountant with extensive financial
-          expertise. 🪄
+          🌟 Junior Frontend Enthusiast Eager to Learn! 🪄
         </span>
         <br />
-        Having dedicated my career to accounting and financial management, I
-        navigate diverse financial landscapes with analytical acumen and
-        strategic thinking.
+        I'm currently honing my skills in
         <span className="font-bold">
-          Residing in Australia, I contribute insights to the financial sector,
-          specializing in crafting strategies, optimizing processes, and
-          ensuring compliance.
+          {" "}
+          JavaScript,React.js,Tailwind,CSS,Next.js,Type-script.js,RESTful-API,Firebase...
         </span>
-        With a proven track record, I offer valuable experience in financial
-        analysis, regulatory compliance, and stakeholder relations.
+        and I'm excited about the journey ahead. 🌐
         <br />
         <span className="italic">
-          Now in Australia, I'm eager to leverage my expertise for the country's
-          financial landscape. If you seek a seasoned CPA Accountant, I'm here
-          to contribute to your financial success. 🌌✨
+          If you're in search of a junior teammate for your web development
+          adventures, someone who's eager to add a touch of magic to your
+          projects while learning and growing alongside you, I'm here and ready
+          to embark on this exciting journey of web development together. Let's
+          create some enchanting digital experiences! 🌌✨
         </span>
       </motion.h6>
 
@@ -100,7 +98,7 @@ export default function Intro() {
         <a
           href="https://www.linkedin.com/in/lesley-chu-334a93a0/"
           target="_blank"
-          className="bg-blue-500  text-white px-7 py-3 flex items-center gap-2 rounded-full text-[1.6rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10"
+          className="bg-blue-500 px-7 py-3 flex items-center gap-2 rounded-full text-[1.6rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10"
         >
           <BsLinkedin />
         </a>

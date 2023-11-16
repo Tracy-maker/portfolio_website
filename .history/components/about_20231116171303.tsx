@@ -15,7 +15,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I'm a qualified CPA with a robust six-year background in the
+        Hello, I'm a qualified CPA with a robust six-year background in the
         Finance Services and Insurance Technology industry.
         <span className="font-medium">
           I bring a meticulous and highly motivated approach to financial

@@ -53,7 +53,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi! I'm Lesley.</span> I'm an{" "}
+        <span className="font-bold">Greetings! I'm Lesley.</span> I'm an{" "}
         <span className="font-bold">
           🌟 accomplished Australian CPA Accountant with extensive financial
           expertise. 🪄

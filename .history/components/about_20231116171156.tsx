@@ -15,7 +15,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I'm a qualified CPA with a robust six-year background in the
+        Hello, I'm a qualified CPA with a robust six-year background in the
         Finance Services and Insurance Technology industry.
         <span className="font-medium">
           I bring a meticulous and highly motivated approach to financial
@@ -30,18 +30,15 @@ export default function About() {
           significantly to organizational success.
         </span>
         <span className="italic">
-          am driven by a commitment to excellence, aiming to not only meet but
-          exceed expectations in delivering timely and accurate financial
-          information.
-        </span>
-        By leveraging my analytical skills, I seek to empower decision-makers
-        with the insights needed for strategic planning and contribute to the
-        overall efficiency and success of the team.
+          I thrive in delivering precise financial information and contribute to
+          the overall success of the organization.
+        </span>{" "}
+        My goal is to bring my skills and commitment to excellence to every
+        financial endeavor,
         <span className="font-medium">
-          I am enthusiastic about the opportunity to bring my skills and
-          dedication to your organization,
+          ensuring a positive impact on decision-making processes and internal
+          operations.
         </span>
-        making a positive impact on your financial processes and outcomes.
       </p>
     </motion.section>
   );

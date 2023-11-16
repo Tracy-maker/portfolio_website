@@ -53,9 +53,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi! I'm Lesley.</span> I'm an{" "}
+        <span className="font-bold">Greetings! I'm Lesley.</span> I'm a{" "}
         <span className="font-bold">
-          🌟 accomplished Australian CPA Accountant with extensive financial
+          🌟 An accomplished Australian CPA Accountant with extensive financial
           expertise. 🪄
         </span>
         <br />
@@ -100,7 +100,7 @@ export default function Intro() {
         <a
           href="https://www.linkedin.com/in/lesley-chu-334a93a0/"
           target="_blank"
-          className="bg-blue-500  text-white px-7 py-3 flex items-center gap-2 rounded-full text-[1.6rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10"
+          className="bg-blue-500 px-7 py-3 flex items-center gap-2 rounded-full text-[1.6rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10"
         >
           <BsLinkedin />
         </a>
