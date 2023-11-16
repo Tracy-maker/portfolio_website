@@ -37,9 +37,10 @@ export const experiencesData = [
   {
     title: "Bachelor of Commerce",
     location: "The University of Queensland",
-    description: "",
+    description:
+      "",
     icon: React.createElement(LuGraduationCap),
-    date: "2010 - 2013",
+    date: "2019",
   },
   {
     title: "Front-End Developer",

@@ -1,10 +1,9 @@
 import React from "react";
-import { useFormStatus } from "react-dom";
 import { FaPaperPlane } from "react-icons/fa";
-
+import { useFormikContext } from "formik";
 
 export default function SubmitBtn() {
-  const { pending } = useFormStatus();
+  const { pending } = useFormikContext();
 
   return (
     <button
