@@ -102,6 +102,7 @@ export default function Intro() {
         >
           <BsLinkedin />
         </a>
+     
       </motion.div>
     </section>
   );

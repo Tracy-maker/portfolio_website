@@ -96,12 +96,13 @@ export default function Intro() {
           Download CV 🤠
         </a>
         <a
-          href="https://www.linkedin.com/in/lesley-chu-334a93a0/"
+          href="https://www.linkedin.com/in/yingxin-zhang-ba1028212/"
           target="_blank"
           className="bg-purple-50 px-7 py-3 flex items-center gap-2 rounded-full text-[1.6rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10"
         >
           <BsLinkedin />
         </a>
+     
       </motion.div>
     </section>
   );

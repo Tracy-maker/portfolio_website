@@ -8,7 +8,7 @@ import SectionHeading from "./section-heading";
 export default function Projects() {
   return (
     <section id="achievements" className="scroll-mt-32 mb-32">
-      <SectionHeading>My Achievements</SectionHeading>
+      <SectionHeading>My Achievementss</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
