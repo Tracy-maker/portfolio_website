@@ -21,8 +21,8 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-5 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:ydlvns@gmail.com">
-          ydlvns@gmail.com
+        <a className="underline" href="mailto:leichu0290@gmail.com">
+          leichu0290@gmail.com
         </a>{" "}
         or through this form.
       </p>
@@ -30,7 +30,7 @@ export default function Contact() {
       <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
-          const { data, error } = await sendEmail(formData);
+          const { error } = await sendEmail(formData);
           if (error) {
             toast.error(error);
             return;

@@ -1,10 +1,11 @@
 "use client";
 
 import React from "react";
-import SectionHeading from "./sectionHeading";
+import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
+import toast from "react-hot-toast";
 
 export default function Contact() {
   return (
@@ -20,8 +21,8 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-5 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:ydlvns@gmail.com">
-          ydlvns@gmail.com
+        <a className="underline" href="mailto:leichu0290@gmail.com">
+          leichu0290@gmail.com
         </a>{" "}
         or through this form.
       </p>
@@ -31,7 +32,10 @@ export default function Contact() {
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
           if (error) {
+            toast.error(error);
+            return;
           }
+          toast.success("Email sent successfully!");
         }}
       >
         <input
