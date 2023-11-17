@@ -37,13 +37,15 @@ export default function Project({
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
+       
+       
         </div>
 
         <Image
           src={imageUrl}
           alt="Project I worked on"
-          quality={98}
-          className="absolute hidden sm:block top-8 -right-40 w-[27rem] h-[15rem] rounded-t-lg shadow-2xl
+          quality={950}
+          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
         transition 
         group-hover:scale-[1.04]
         group-hover:-translate-x-3

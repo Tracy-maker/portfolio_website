@@ -63,28 +63,26 @@ export const projectsData = [
   {
     title: "Financial Strategy and Analysis:",
     description:
-      "Developed and implemented streamlined working practices for new subsidiaries in the US and New Zealand." +
-      "\n" +
-      "Created P&L models for US and New Zealand entities, facilitating strategic business analysis.",
+      "Developed and implemented streamlined working practices for new subsidiaries in the US and New Zealand. Created P&L models for US and New Zealand entities, facilitating strategic business analysis.",
+
     imageUrl: p1Img,
   },
-
-  // {
-  //   title: "rmtDev",
-  //   description:
-  //     "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-  //   imageUrl: p1Img,
-  //   url: "https://projects-collection-1314.vercel.app",
-  // },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: p3Img,
-  //   url: "https://projects-collection-1314.vercel.app",
-  // },
+  {
+    title: "rmtDev",
+    description:
+      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    imageUrl: p1Img,
+    url: "https://projects-collection-1314.vercel.app",
+  },
+  {
+    title: "Word Analytics",
+    description:
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: p3Img,
+    url: "https://projects-collection-1314.vercel.app",
+  },
 ] as const;
 
 export const skillsData = [

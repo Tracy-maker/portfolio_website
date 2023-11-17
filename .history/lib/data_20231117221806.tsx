@@ -62,10 +62,10 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Financial Strategy and Analysis:",
-    description:
-      "Developed and implemented streamlined working practices for new subsidiaries in the US and New Zealand." +
-      "\n" +
-      "Created P&L models for US and New Zealand entities, facilitating strategic business analysis.",
+    description: `
+      Developed and implemented streamlined working practices for new subsidiaries in the US and New Zealand.
+      Created P&L models for US and New Zealand entities, facilitating strategic business analysis.
+    `,
     imageUrl: p1Img,
   },
 
