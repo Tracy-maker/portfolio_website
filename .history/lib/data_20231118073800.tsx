@@ -95,18 +95,20 @@ export const experiencesData = [
     date: "APR 2019 - MAR 2022",
   },
   {
-    title: "Financial Accountant",
-    location: "The Hollard Insurance Company Australia",
-    description: ``,
+    title: "Full-Stack Developer",
+    location: "Houston, TX",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(CgWorkAlt),
-    date: "Mar 2022 - Feb 2023",
+    date: "2021 - present",
   },
   {
-    title: "Senior Financial Planning Analyst",
-    location: "The Hollard Insurance Company Australia",
-    description: ``,
+    title: "Full-Stack Developer",
+    location: "Houston, TX",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(CgWorkAlt),
-    date: "Mar 2023 - Present",
+    date: "2021 - present",
   },
 ] as const;
 

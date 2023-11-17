@@ -102,8 +102,8 @@ export const experiencesData = [
     date: "Mar 2022 - Feb 2023",
   },
   {
-    title: "Senior Financial Planning Analyst",
-    location: "The Hollard Insurance Company Australia",
+    title: "Full-Stack Developer",
+    location: "Houston, TX",
     description: ``,
     icon: React.createElement(CgWorkAlt),
     date: "Mar 2023 - Present",

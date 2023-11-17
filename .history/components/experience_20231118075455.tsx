@@ -9,6 +9,8 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 
 export default function Experience() {
+  console.log(experiencesData);
+
   return (
     <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My Experience</SectionHeading>
@@ -23,20 +25,18 @@ export default function Experience() {
                 textAlign: "left",
                 padding: "1.3rem 2rem",
               }}
-              date={experience.date}
-              icon={experience.icon}
+              date={i.date}
+              icon={item.icon}
               iconStyle={{
+                background:
+                  theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold capitalize dark:text-sky-700">
-                {experience.title}
-              </h3>
-              <p className="font-normal !mt-0 dark:text-sky-700">
-                {experience.location}
-              </p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-sky-700">
-                {experience.description}
+              <h3 className="font-semibold capitalize">{item.title}</h3>
+              <p className="font-normal !mt-0">{item.location}</p>
+              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                {item.description}
               </p>
             </VerticalTimelineElement>
           </React.Fragment>

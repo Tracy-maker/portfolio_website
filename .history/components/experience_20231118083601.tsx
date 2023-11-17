@@ -22,20 +22,22 @@ export default function Experience() {
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
                 padding: "1.3rem 2rem",
+                
               }}
+              
               date={experience.date}
               icon={experience.icon}
               iconStyle={{
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold capitalize dark:text-sky-700">
+              <h3 className="font-semibold capitalize dark:text-sky-500">
                 {experience.title}
               </h3>
-              <p className="font-normal !mt-0 dark:text-sky-700">
+              <p className="font-normal !mt-0 dark:text-sky-500">
                 {experience.location}
               </p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-sky-700">
+              <p className="!mt-1 !font-normal text-gray-700 dark:text-sky-500">
                 {experience.description}
               </p>
             </VerticalTimelineElement>

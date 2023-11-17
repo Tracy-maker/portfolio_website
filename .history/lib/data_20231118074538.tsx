@@ -103,7 +103,7 @@ export const experiencesData = [
   },
   {
     title: "Senior Financial Planning Analyst",
-    location: "The Hollard Insurance Company Australia",
+    location: "Houston, TX",
     description: ``,
     icon: React.createElement(CgWorkAlt),
     date: "Mar 2023 - Present",

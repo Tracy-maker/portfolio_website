@@ -12,7 +12,7 @@ export default function Experience() {
   return (
     <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My Experience</SectionHeading>
-      <VerticalTimeline>
+      <VerticalTimeline className="vertical-timeline-element--work bg-blue-500 text-white">
         {experiencesData.map((experience, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
@@ -29,13 +29,13 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold capitalize dark:text-sky-700">
+              <h3 className="font-semibold capitalize dark:text-sky-500">
                 {experience.title}
               </h3>
-              <p className="font-normal !mt-0 dark:text-sky-700">
+              <p className="font-normal !mt-0 dark:text-sky-500">
                 {experience.location}
               </p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-sky-700">
+              <p className="!mt-1 !font-normal text-gray-700 dark:text-sky-500">
                 {experience.description}
               </p>
             </VerticalTimelineElement>

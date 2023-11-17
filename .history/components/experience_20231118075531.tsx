@@ -9,6 +9,8 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 
 export default function Experience() {
+  console.log(experiencesData);
+
   return (
     <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My Experience</SectionHeading>
@@ -29,13 +31,9 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold capitalize dark:text-sky-700">
-                {experience.title}
-              </h3>
-              <p className="font-normal !mt-0 dark:text-sky-700">
-                {experience.location}
-              </p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-sky-700">
+              <h3 className="font-semibold capitalize">{experience.title}</h3>
+              <p className="font-normal !mt-0">{experience.location}</p>
+              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {experience.description}
               </p>
             </VerticalTimelineElement>

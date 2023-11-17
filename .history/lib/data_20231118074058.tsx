@@ -99,14 +99,14 @@ export const experiencesData = [
     location: "The Hollard Insurance Company Australia",
     description: ``,
     icon: React.createElement(CgWorkAlt),
-    date: "Mar 2022 - Feb 2023",
+    date: "2021 - present",
   },
   {
-    title: "Senior Financial Planning Analyst",
-    location: "The Hollard Insurance Company Australia",
-    description: ``,
-    icon: React.createElement(CgWorkAlt),
-    date: "Mar 2023 - Present",
+    title: "Full-Stack Developer",
+    location: "Houston, TX",
+    description:``,
+     icon: React.createElement(CgWorkAlt),
+    date: "2021 - present",
   },
 ] as const;
 
