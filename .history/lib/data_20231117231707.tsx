@@ -117,5 +117,5 @@ export const skillsData = [
   "Internal Process Development",
   "Month-End Close Process",
   "Account Reconciliation",
-  "Process Improvement",
+  "Tailwind",
 ] as const;

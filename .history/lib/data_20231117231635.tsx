@@ -108,7 +108,6 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "CPA",
   "Budgeting & Forecasting",
   "Financial Reporting",
   "Financial Statements",
@@ -117,5 +116,8 @@ export const skillsData = [
   "Internal Process Development",
   "Month-End Close Process",
   "Account Reconciliation",
-  "Process Improvement",
+  "Tailwind",
+  "REST-API",
+  "PostgreSQL",
+  "Framer Motion",
 ] as const;
