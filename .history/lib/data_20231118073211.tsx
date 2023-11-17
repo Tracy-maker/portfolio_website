@@ -84,14 +84,14 @@ export const experiencesData = [
   {
     title: "Accountant",
     location: "Claim Central Consolidated",
-    description: `❤ Oversee month-end tasks, providing reports on business performance.
+    description:
+   `❤ Oversee month-end tasks, providing reports on business performance.
    ❤ Analyze Revenue, COGS, and monthly expenses for decision-making.
    ❤ Track daily operations with metric analysis reports.
    ❤ Manage Cash Flow Forecasting for strong subsidiary entity cash positions.
    ❤ Aid in annual reports, tax returns, and external audit preparations.
    ❤ Support FP&A in budgeting and forecasting.
-   ❤ Ensure timely filing of IAS and BAS for six entities.`,
-    icon: React.createElement(CgWorkAlt),
+   ❤ Ensure timely filing of IAS and BAS for six entities.`, icon: React.createElement(CgWorkAlt),
     date: "2021 - present",
   },
   {

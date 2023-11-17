@@ -82,15 +82,10 @@ export const experiencesData = [
     date: "JAN 2017 - MAR 2019",
   },
   {
-    title: "Accountant",
-    location: "Claim Central Consolidated",
-    description: `❤ Oversee month-end tasks, providing reports on business performance.
-   ❤ Analyze Revenue, COGS, and monthly expenses for decision-making.
-   ❤ Track daily operations with metric analysis reports.
-   ❤ Manage Cash Flow Forecasting for strong subsidiary entity cash positions.
-   ❤ Aid in annual reports, tax returns, and external audit preparations.
-   ❤ Support FP&A in budgeting and forecasting.
-   ❤ Ensure timely filing of IAS and BAS for six entities.`,
+    title: "Full-Stack Developer",
+    location: "Houston, TX",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - present",
   },

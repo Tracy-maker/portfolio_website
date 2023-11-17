@@ -5,7 +5,7 @@ import { achievementsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-type ProjectProps = (typeof achievementsData)[number];
+type ProjectProps = (typeof projectsData)[number];
 
 export default function Project({
   title,

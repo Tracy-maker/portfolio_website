@@ -50,47 +50,34 @@ export const experiencesData = [
     title: "Junior Accountant",
     location: "Sydney Australia",
     description: "Junior Accountant --- M Equals",
-    icon: React.createElement(IoPeopleSharp),
+    icon: React.createElement(CgWorkAlt),
     date: "NOV 2014 - MAY 2015",
   },
   {
-    title: "Accounts Payable Analyst",
-    location: "Claim Central Consolidated",
-    description: `
-🌀 Train and support the Accounts Payable team.
-🌀 Manage AP across multiple entities for timely invoice processing and payments.
-🌀 Monthly reconciliations and resolution of supplier statement discrepancies.
-🌀 Oversee accurate payment runs for all group entities.
-🌀 Professionally liaise with suppliers and internal stakeholders on AP matters.
-🌀 Generate monthly reports and close tasks in the internal operation system.`,
+    title: "Accounts Payable Analyst --- Claim Central Consolidated",
+    location: "Houston, TX",
+    description: `🌀 Provide training, guidance, and support to the Accounts Payable team
+      🌀 Manage all aspects of the AP function across multiple group entities, ensure invoice processing, approval and payments are completed accurately and in timely manner
+      🌀 Complete monthly reconciliations of supplier statements and liaise with internal stakeholders to investigate discrepancies.
+      🌀 Manage accurate payment runs for all group entities.
+      🌀 Liaise with all suppliers and internal stakeholders for all matters relating to accounts payable in a professional manner.
+      🌀 Provide monthly reports and run certain procedures to close off tasks in internal operation system.`,
     icon: React.createElement(CgWorkAlt),
     date: "JUN 2015 - DEC 2016",
   },
   {
-    title: "Assistant Accountant",
-    location: "Claim Central Consolidated",
-    description: `
-   ⭐ Close month-end finances for AU, NZ, and US branches.
-   ⭐ Review revenue and expenses following AASB15 and company rules.
-   ⭐ Sort out loans between AU, NZ, and US subsidiaries.
-   ⭐ Check and fix any errors in Balance Sheet accounts.
-   ⭐ Keep track of assets and depreciation in AU, NZ, and the USA.
-   ⭐ Supervise daily tasks for Accounts teams.
-   ⭐ Train junior staff.
-   `,
+    title: "Full-Stack Developer",
+    location: "Houston, TX",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(CgWorkAlt),
-    date: "JAN 2017 - MAR 2019",
+    date: "2021 - present",
   },
   {
-    title: "Accountant",
-    location: "Claim Central Consolidated",
-    description: `❤ Oversee month-end tasks, providing reports on business performance.
-   ❤ Analyze Revenue, COGS, and monthly expenses for decision-making.
-   ❤ Track daily operations with metric analysis reports.
-   ❤ Manage Cash Flow Forecasting for strong subsidiary entity cash positions.
-   ❤ Aid in annual reports, tax returns, and external audit preparations.
-   ❤ Support FP&A in budgeting and forecasting.
-   ❤ Ensure timely filing of IAS and BAS for six entities.`,
+    title: "Full-Stack Developer",
+    location: "Houston, TX",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - present",
   },

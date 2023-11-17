@@ -10,9 +10,9 @@ export default function Projects() {
     <section id="achievements" className="scroll-mt-32 mb-32">
       <SectionHeading>My Achievements</SectionHeading>
       <div>
-        {achievementsData.map((detail, index) => (
+        {achievementsData.map((project, index) => (
           <React.Fragment key={index}>
-            <Project {...detail} />
+            <Project {...project} />
           </React.Fragment>
         ))}
       </div>
