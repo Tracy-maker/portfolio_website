@@ -72,8 +72,8 @@ export const projectsData = [
   {
     title: "Performance Optimization:",
     description: `
-    Enhanced KPI reports, analyzing metrics like Incoming Claims, Conversion Rate, and Key Clients Revenue.
-    Conducted a month-end gap analysis, reporting issues and recommending solutions, resulting in a 25% increase in gross margin the following quarter. `,
+    Enhanced KPI reports, analyzing metrics such as Incoming Claims, Conversion Rate, and Key Clients Revenue.
+    Conducted a month-end gap analysis, identifying a lower-than-budget gross margin. Reported issues, reasons, and recommended solutions, resulting in a 25% increase in the following quarter. `,
     imageUrl:
       "https://images.pexels.com/photos/7567567/pexels-photo-7567567.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },

@@ -72,8 +72,9 @@ export const projectsData = [
   {
     title: "Performance Optimization:",
     description: `
-    Enhanced KPI reports, analyzing metrics like Incoming Claims, Conversion Rate, and Key Clients Revenue.
-    Conducted a month-end gap analysis, reporting issues and recommending solutions, resulting in a 25% increase in gross margin the following quarter. `,
+      Developed and implemented streamlined working practices for new subsidiaries in the US and New Zealand.
+      Created P&L models for US and New Zealand entities, facilitating strategic business analysis.
+    `,
     imageUrl:
       "https://images.pexels.com/photos/7567567/pexels-photo-7567567.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
