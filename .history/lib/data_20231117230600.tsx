@@ -78,35 +78,31 @@ export const projectsData = [
       "https://images.pexels.com/photos/907489/pexels-photo-907489.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
   {
-    title: "Cost Management and Efficiency:",
+    title: "Financial Strategy and Analysis:",
     description: `
-    Evaluated Head Office expenses, leading a cost-saving project for a 30% reduction in OPEX the next year.
-    Increased accounting efficiency by transitioning multiple procedures to electronic forms.`,
+      Developed and implemented streamlined working practices for new subsidiaries in the US and New Zealand.
+      Created P&L models for US and New Zealand entities, facilitating strategic business analysis.
+    `,
     imageUrl:
-      "https://images.pexels.com/photos/1485653/pexels-photo-1485653.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/7567567/pexels-photo-7567567.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
   {
-    title: "Financial Reporting and Compliance:",
+    title: "Financial Strategy and Analysis:",
     description: `
-    Implemented AASB16 for new contracts and lease condition changes.
-    Introduced a reconciliation worksheet, enabling swift completion of accrual figures in 30 minutes during month-end.   `,
+      Developed and implemented streamlined working practices for new subsidiaries in the US and New Zealand.
+      Created P&L models for US and New Zealand entities, facilitating strategic business analysis.
+    `,
     imageUrl:
-      "https://images.pexels.com/photos/3943727/pexels-photo-3943727.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/7567567/pexels-photo-7567567.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
   {
-    title: "Operational Excellence:",
+    title: "Financial Strategy and Analysis:",
     description: `
-    Resolved operational issues caused by system glitches, improving accuracy by 90%.
-    Reduced 30days+ aged debtors by 60% in two months through aged debtor analysis.  `,
+      Developed and implemented streamlined working practices for new subsidiaries in the US and New Zealand.
+      Created P&L models for US and New Zealand entities, facilitating strategic business analysis.
+    `,
     imageUrl:
-      "https://images.pexels.com/photos/186464/pexels-photo-186464.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  },
-  {
-    title: "Process Improvement and Stakeholder Relations:",
-    description: `
-    Restructured data templates for streamlined Accounts Receivable and Payable processes, enhancing efficiency and accuracy.`,
-    imageUrl:
-      "https://images.pexels.com/photos/4386341/pexels-photo-4386341.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/7567567/pexels-photo-7567567.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
 ] as const;
 

@@ -91,7 +91,7 @@ export const projectsData = [
     Implemented AASB16 for new contracts and lease condition changes.
     Introduced a reconciliation worksheet, enabling swift completion of accrual figures in 30 minutes during month-end.   `,
     imageUrl:
-      "https://images.pexels.com/photos/3943727/pexels-photo-3943727.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/186464/pexels-photo-186464.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
   {
     title: "Operational Excellence:",

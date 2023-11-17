@@ -91,7 +91,7 @@ export const projectsData = [
     Implemented AASB16 for new contracts and lease condition changes.
     Introduced a reconciliation worksheet, enabling swift completion of accrual figures in 30 minutes during month-end.   `,
     imageUrl:
-      "https://images.pexels.com/photos/3943727/pexels-photo-3943727.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/186464/pexels-photo-186464.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
   {
     title: "Operational Excellence:",
@@ -104,9 +104,10 @@ export const projectsData = [
   {
     title: "Process Improvement and Stakeholder Relations:",
     description: `
-    Restructured data templates for streamlined Accounts Receivable and Payable processes, enhancing efficiency and accuracy.`,
+    Resolved operational issues caused by system glitches, improving accuracy by 90%.
+    Reduced 30days+ aged debtors by 60% in two months through aged debtor analysis.  `,
     imageUrl:
-      "https://images.pexels.com/photos/4386341/pexels-photo-4386341.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/186464/pexels-photo-186464.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
 ] as const;
 
