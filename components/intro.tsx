@@ -85,7 +85,7 @@ export default function Intro() {
       >
         <Link
           id="contact"
-          href="#contact"
+          href=""
           className="bg-blue-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-110 hover:bg-gray-700 active:scale-95 transition cursor-pointer border-black/10s"
         >
           Contact me here 🥳
